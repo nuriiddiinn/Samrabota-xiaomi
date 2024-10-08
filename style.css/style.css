@@ -1,0 +1,1954 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #222;
+    font-family: 'Gilroy-regular', sans-serif;
+    background-image: url(/img/shumm.png);
+}
+
+
+section {
+    padding: 140px;
+}
+
+
+
+
+
+
+
+.mismok{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    width: 100%;
+}
+
+.buy-button{
+    top: 40px;
+    left: 1178px;
+    padding: 15px 35px 15px 35px;
+    gap: 10px;
+    border-radius: 65px;
+    font-weight: 600;
+    font-family: 'Gilroy-regular';
+    margin-left:200px;
+}
+
+
+.logo{
+    width: 60px;
+    height: 39px;
+    top: 47px;
+}
+
+.logoorange{
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    width: 100%;
+}
+
+nav ul li {
+    margin-left: 30px; 
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Gilroy-regular', sans-serif;
+    font-weight: 600;
+    font-size: calc(40px + (80 - 40) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 600;
+    line-height: calc(48px + (80 - 48) * ((100vw - 375px) / (1280 - 375)));
+    color:#F1F1F1;
+    margin-top: 100px;
+}
+
+
+.main-content p{
+    font-size: calc(20px + (30 - 20) * ((100vw - 375px) / (1280 - 375)));; 
+    font-weight: 600;
+    line-height: calc(24px + (36 - 24) * ((100vw - 375px) / (1280 - 375)));;
+    color: #FF4C0D;
+
+    margin-top: 30px;
+    width: 45%;
+}
+
+#scooter {
+    width: 400px;
+    margin-top: 50px;
+}
+
+.toggle{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.electrosamimg{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h2{
+    color:#F1F1F1;
+    font-size: calc(30px + (45 - 30) * ((100vw - 375px) / (1280 - 375)));;
+    font-weight: 500;
+    line-height: calc(33px + (49.5 - 33) * ((100vw - 375px) / (1280 - 375)));;
+    width: 90%;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    color:#f1f1f15f;
+    transition: 200ms;
+}
+
+.speed:hover{
+    color:#F1F1F1;
+    transition: 700ms;
+}
+
+.energy:hover{
+    color:#F1F1F1;
+    transition: 700ms;
+}
+
+.battery:hover{
+    color:#F1F1F1;
+    transition: 700ms;
+}
+
+.speed, .energy, .battery{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-basis: 100px;
+}
+
+hr{
+   width: 360px;
+   margin-bottom: 10px;
+}
+
+
+.info span{
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+}
+
+
+
+#energyy{
+    margin-left: 15px;
+}
+
+#speeed{
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.photosec{
+    background-image: url('/img/miphoto.svg');
+    background-repeat: no-repeat;
+}
+
+.photosec img{
+    margin-top: 10px;
+}
+
+.photosec h2 {
+    padding-top: 120px;
+    font-weight: 500;
+    font-size: calc(30px + (45 - 30) * ((100vw - 375px) / (1280 - 375)));;
+    width: 50%;
+}
+
+.photosec p{
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+color:#F1F1F1;
+width: 36%;
+margin-top: 0px;
+}
+
+.photosectext{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.design h2{
+    color:#FF4C0D;
+    width: 70%;
+    font-weight: 500;
+}
+
+.designBox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color:#F1F1F1;
+}
+
+.minimalistic p{
+    width: 440px;
+    height: 63px;
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.minimalistic{
+    background-color: rgba(0, 0, 0, 0.527);
+    border-radius: 15px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    border-radius: 15px;
+
+
+    width: 560px;
+    height: 550px;
+    top: 290px;
+
+
+
+}
+
+.minimalistic img{
+    width: 560px;
+    height: 407px;
+}
+
+.speedofscooter{
+    background-image:url(/img/skorost.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding-top: 415px;
+    padding-left: 30px;
+
+
+}
+
+
+
+.designimg320{
+    display: none;
+}
+
+.speedofscooter p{
+    width: 440px;
+    height: 63px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.speedimg{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.safetyboximg{
+    display: none;
+}
+
+.safety h2{
+    color:#FF4C0D;
+    font-weight: 500;
+}
+.safetyBox{
+    display: flex;
+    flex-wrap: wrap;
+    color:#F1F1F1;
+    gap: 40px;
+    width: 100%;
+}
+
+.safetyBox span{
+    width: 100%;
+}
+
+.safetyBox hr{
+    width: 260px;
+}
+
+#lights1{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.safetyBox{
+    color:#f1f1f15f;
+}
+
+.light:hover{
+    color:#F1F1F1;
+    transition: 700ms;
+}
+
+.double:hover{
+    color:#F1F1F1;
+    transition: 700ms;
+}
+
+.backlights:hover{
+    color:#F1F1F1;
+    transition: 700ms;
+}
+
+.mirror:hover{
+    color:#F1F1F1;
+    transition: 700ms;
+    
+}
+
+.double{
+    width: 40%;
+    width: 260px;
+    height:  165px;
+    top: 1070px;
+    left: 140px;
+    gap: 15px;
+}
+
+
+.mirror{
+    width: 260px;
+    height: 207px;
+    top: 1070px;
+    left: 440px;
+    gap: 15px;
+}
+
+
+
+.light{
+    width: 260px;
+    height:186px;
+    top: 1070px;
+    left: 740px;
+    gap: 15px;
+}
+
+.backlights{
+    width: 260px;
+height: 165px;
+top: 1070px;
+left: 1040px;
+gap: 15px;
+}
+
+.light h3{
+    width: 50%;
+}
+
+.backlights h3{
+    width: 50%;
+}
+
+#lights1{
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.appBox{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.apps h2{
+    margin-bottom: 30px;
+    color:#FF4C0D;
+    width: 70%;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 49.5px;
+}
+
+.apps span{
+   width: 50%;
+   color:#F1F1F1;
+   margin-bottom: 50px;
+}
+
+.apps{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.appstore{
+    display: flex;
+    background-color:#F1F1F1;
+    width: 150px;
+    height: 40px;
+    border-radius:10px;
+}
+
+.googleplay{
+    display: flex;
+    background-color:#F1F1F1;
+    width: 150px;
+    height: 40px;
+    border-radius:10px;
+}
+
+.stores{
+    display: flex;
+    gap: 20px
+}
+
+.phoneimg{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+.whitephone{
+    display: none;
+}
+
+#blackapp{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutbrand{
+    background-image:url(/img/о\ бренде.png);
+    z-index: -2;
+    width: 100%;
+    background-repeat:no-repeat; 
+    margin-top: -140px; 
+}
+
+.abouttext h2{
+    color:#FF4C0D;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.abouttext p{
+    width: 44%;
+}
+
+.aboutp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#whitemi{
+    display: none;
+}
+
+#gradient{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.feedback{
+    display: flex;
+    gap: 30px;
+}
+
+.feedbacks h2{
+    color:#FF4C0D;
+    width: 1160px;
+    height: 50px;
+    top: 120px;
+    
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 49.5px;
+
+}
+
+.feedback hr{
+    width: 100px;
+    background-color: #FF4C0D;
+    border-color: #FF4C0D;
+}
+
+.feedback h3{
+    color:#F1F1F1;
+    width: 380px;
+    height: 24px;
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.otziv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #F1F1F1;
+  
+
+    background-color: #151515;
+    width: 460px;
+    padding: 40px;
+    top: 200px;
+    border-radius: 15px;
+}
+
+.otziv p{
+    width: 380px;
+    
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+button{ 
+    width:189px;
+    height: 54px;
+    padding-top: 0px;
+    border-radius: 65px;
+    margin-top: 30px;
+
+    font-family: 'Gilroy-regular', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.feedback-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .feedback {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  .slider-button {
+    position: absolute;
+    bottom: 10px;
+    background: none; /* Убираем фон */
+    border: none; /* Убираем рамку */
+    font-size: 24px; /* Размер стрелок */
+    cursor: pointer; /* Указатель курсора */
+    color: #333; /* Цвет стрелок */
+    display: none; /* Кнопки скрыты по умолчанию */
+  }
+  
+  .prev-button {
+    left: 10px; /* Слева */
+  }
+  
+  .next-button {
+    right: 10px; /* Справа */
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .pagination span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .pagination span.active {
+    background: #333;
+  }
+  
+  @media screen and (max-width: 320px) {
+    .feedback {
+      flex-direction: row;
+    }
+  
+    .slider-button {
+      display: block; /* Показываем кнопки при ширине экрана меньше 320px */
+    }
+
+  }
+  
+  
+  
+  
+  .prev{
+    width: 54px;
+    height: 54px;
+    top: 524px;
+   
+    
+  }
+
+.next{
+    width: 54px;
+    height: 54px;
+    top: 524px;
+}
+ 
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+.question{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 170px;
+}
+
+
+
+
+.mostquestions{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    flex-basis: 150px;
+}
+
+.askbtn{
+    margin-top: 60px;
+}
+
+.mostquestions h2{
+    width: 150%;
+    height: 100px;
+    top: 698px;
+
+    color:#FF4C0D;
+    margin-bottom: 30px;
+}
+
+.mostquestions p{
+    width: 360px;
+    top: 828px;
+
+    color:#F1F1F1;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+
+
+.listofquestion{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.listofquestion h3{
+    color: #F1F1F1;
+    width: 660px;
+    height: 24px;
+    
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.listofquestion hr{
+    width: 100px;
+    background-color: #FF4C0D;
+    border-color: #FF4C0D;
+}
+
+
+.listofquestion span{
+    width: 660px;
+    height: 42px;
+   
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color:#F1F1F1;
+}
+
+.firstquestion{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    width: 660px;
+    height: 99px;
+}
+
+.secondquestion{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    width: 660px;
+    height: 78px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul{
+    list-style: none;
+}
+
+.buybox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:#151515;
+    width: 1160px;
+    height: 500px;
+    border-radius: 15px;
+    padding: 60px;
+}
+
+.moreinfo{
+    display: flex;
+    justify-content: space-between;
+    color:#F1F1F1;
+    margin-top: 60px;
+}
+
+.buyit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buyit h2{
+    width: 100%;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 49.5px;
+}
+
+.buyit span{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #FF4C0D;
+    margin-top: -55px;
+}
+
+.buuy{
+    display: flex;
+    flex-direction: column;
+}
+
+.buyy-button{
+    color: #f1f1f1;
+    background: #FF4C0D;
+    width: 122px;
+    height: 54px;
+    border-radius: 65px;
+    margin-left: 0px;
+}
+
+.more{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 52px;
+    top: 60px;
+}
+
+
+.postavki h3{
+    width: 200px;
+    height: 24px;
+    
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color:#F1F1F1;
+    margin-bottom: 20px;
+}
+
+.postavki{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 1;
+    margin-left: -700px;
+}
+
+li{
+    margin-bottom: 10px;
+    color:#F1F1F1;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+
+
+}
+
+#samok{
+    position: relative;
+    width: 990px;
+    height: 660px;
+    margin-top: -160px;
+    margin-left: -500px;
+    z-index: 1;
+
+}
+
+.inf{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 100%;
+    margin-right: -90px;
+    text-align: right;
+}
+
+.buyyy-button{
+    display: none;
+}
+
+
+.h{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 320px){
+    body{
+        background-color: #222;
+        font-family: 'Gilroy-regular', sans-serif;
+        background-image: url(/img/shumm.png);
+        padding-right: 20px;
+    }
+    
+    section {
+        padding: 20px;
+    }
+
+
+
+    .misamokat{
+  
+    }
+
+    .buy-button{
+        display: none
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .logoorange{
+        display: inline;
+        width: 49.08px;
+        height: 28.7px;
+        top: 25.83px;
+        margin-left: -210px;
+    }
+
+    h1{
+        color:#FF4C0D;
+        font-weight: 600;
+        
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+
+
+
+    
+    
+   .main-content p{
+    color:#F1F1F1;
+    width: 97%;
+    height: 76px;
+   
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.electroinfo{
+    background-image: url(/img/Ellipse\ 32\ \(1\).svg);
+    width: 100%;
+   
+   
+
+
+
+
+}
+
+
+
+    .electrosamimg{
+        display: block;
+    }
+
+    .energyphotoclass{
+        display: none;
+    }
+
+    h2{
+        margin-top: 100px;
+        width: 110%;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+
+    .speed h3{
+        font-size: 16px;
+        margin-bottom: -3px;
+        color: #FF4C0D;
+    }
+
+    .electroinfo hr{
+        width: 100px;
+        background-color: #FF4C0D;
+        border-color: #FF4C0D;
+    }
+
+    .speed span{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20.4px;
+
+        color: #F1F1F1;
+
+    }
+    .speed{
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        height: 182px;
+        gap: 5px;
+        margin-bottom: 20px;
+    }
+
+
+    .energy{
+        margin-top: 160px;
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        height: 122px;
+        gap: 5px;
+    }
+
+    .energy span{
+        width: 280px;
+        height: 80px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20.4px;
+
+        color: #F1F1F1;
+    }
+
+
+    .energy h3{
+        font-size: 16px;
+        margin-bottom: -3px; color: #FF4C0D;
+    }
+
+
+    .battery{
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        height: 102px;
+        gap: 5px;
+    }
+
+    .battery h3{
+        font-size: 16px;
+        margin-bottom: -3px; color: #FF4C0D;
+    }
+
+    .battery span{
+        width: 280px;
+        height: 60px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20.4px;
+        
+        color: #F1F1F1;
+    }
+
+
+
+
+    .electrosamimg{
+        width: 280px;
+        height: 200px;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .photosec{
+        margin-top: 250px;
+        background-image:url(/img/image\ 205\ \(1\).png);
+        width: 640px;
+        height: 420px;
+        left: -134px;
+    }
+
+
+    .logosec{
+        width: 46.15px;
+        height: 30px;
+        top: 20px;
+        left: 20px;
+    }
+
+    .photosectext h2{
+        width: 280px;
+        height: 60px;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .photosectext p{
+       
+        width: 240px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 20.4px;
+        margin-bottom: 10px;
+    }
+
+    .photosectext h2{
+        margin-top: 80px;
+        margin-bottom: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .design{
+        margin-top: -140px;
+    }
+
+    .design h2{
+        color: #F1F1F1;
+        width: 270px;
+        height: 120px;
+        top: 60px;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .designimg{
+        width: 280px;
+        height: 260px;
+        border-radius: 15px;
+        background-color:black;
+    }
+
+    .minimalistic{
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+    }
+
+    .minimalistic h3{
+        width: 280px;
+        height: 19px;
+
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.2px
+    }
+
+    .minimalistic p{
+        width: 280px;
+        height: 100px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20.4px;
+        padding-left: -50px;
+    }
+
+
+    .speedofscooter{
+        background: transparent;
+    }
+
+    .speedimg{
+        display: block;
+        width: 280px;
+        height: 260px;
+        
+    
+        border-radius: 15px;
+    }
+
+
+
+  
+
+
+
+
+
+
+
+    .safety h2{
+        color: #F1F1F1;
+        width: 300px;
+        height: 60px;
+        top: 1078px;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .safetyBox hr{
+        width: 100px;
+        background-color: #FF4C0D;
+        border-color: #FF4C0D;
+    }
+
+    .light{
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        height: 102px;
+        gap: 5px;
+
+    }
+
+    .light h3{
+        color: #FF4C0D;
+        width: 217px;
+        height: 19px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.2px;
+    }
+
+    .light span{
+        color:#F1F1F1;
+        width: 280px;
+        height: 60px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20.4px;
+    }
+
+
+
+
+    #lights1{
+        display: none;
+    }
+
+    #lights2{
+        display: none;
+    }
+
+    .safetyboximg{
+        display: block;
+        width: 280px;
+        height: 200px;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+
+
+    .double{
+        margin-top: 220px;
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        height: 122px;
+        gap: 5px;
+    }
+
+    .double h3{
+        width: 217px;
+        height: 19px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.2px;
+
+        color: #FF4C0D;
+    }
+
+    .double span{
+        width: 280px;
+        height: 80px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20.4px;
+
+        color:#F1F1F1;
+    }
+
+    .backlights{
+        width:  280px;
+        height: 122px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 220px;
+    }
+
+    .backlights h3{
+        width: 148px;
+        height: 19px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.2px;
+        color: #FF4C0D;        
+    }
+
+    .backlights span{
+        width: 280px;
+        height: 80px;
+        
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20.4px;
+
+        color: #F1F1F1;
+    }
+
+    .mirror{
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        height: 102px;
+        gap: 5px;
+
+        margin-top: 220px;
+    }
+
+    .mirror h3{
+        width: 278px;
+        height: 19px;
+        
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.2px;
+        color: #FF4C0D;
+    }
+
+    .mirror span{
+        width: 280px;
+        height: 60px;
+       
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20.4px;
+        
+        color: #F1F1F1;
+        
+    }
+
+
+
+
+
+
+
+
+
+  .apps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+  }
+
+  .appBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center;
+    margin-left: 30px;
+  }
+
+    .mobileapp{
+        margin-top: 120px;
+    }
+
+    .mobileapp h2{
+        width: 278px;
+        height: 60px;
+       
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .apps span{
+        width: 278px;
+        height: 100px;
+
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20.4px;
+        margin-top: -10px;
+    }
+
+    .blackphone{
+        display: none;
+    }
+
+    .whitephone{
+        display: block;
+    }
+
+    
+    .downloadapp{
+        display: none;
+    }
+
+    #blackapp{
+        display: inline;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        margin-left: -5px;
+    }
+
+
+
+
+
+
+
+
+    .aboutbrand{
+        margin-top: -20px;
+        background-image:url(/img/obrende.png);
+        width: 778px;
+        height: 384px;
+        left: -255px;
+    }
+
+
+    #whitemi{
+        display: block;
+        width: 46.15px;
+        height: 30px;
+        top: 30px;
+        left: 30px;
+    }
+
+    #orange{
+        display: none;
+    }
+
+
+    .abouttext h2{
+        width: 280px;
+        height: 30px;
+        
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+        color:#F1F1F1;
+    }
+
+    .aboutp {
+        width: 280px;
+        height: 130px;  
+    }
+
+    .aboutp p:first-child{
+        width: 100%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20.4px;
+        color:#F1F1F1;
+    }
+
+    .aboutp p:last-child{
+        width: 100%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20.4px;
+
+        color:#F1F1F1;
+    }
+
+
+
+    
+        
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+.feedback{
+    display: flex;
+    gap: 30px;
+    width: 280px;
+    height: 322px;
+    top: 150px;
+    border-radius: 15px;
+}
+
+.feedbacks h2{
+    color: #F1F1F1;
+    width: 200px;
+    height: 60px;
+    top: 20px;
+    margin-bottom: 30px;
+
+
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.otziv{
+    width: 200px;
+    height: 85%;
+    top: 180px;
+    left: 50px;
+}
+
+.feedback hr{
+    width: 100px;
+    background-color: #FF4C0D;
+    border-color: #FF4C0D;
+}
+
+.otziv p{
+    width: 100%;
+    width: 220px;
+    height: 210px;
+
+    
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20.4px;
+}
+
+button{ 
+    width: 280px;
+    height: 54px;
+    padding-top: 0px;
+    border-radius: 65px;
+    margin-top: 100px;
+
+    font-family: 'Gilroy-regular', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.prev{
+    display: none;
+}
+
+.next{
+    display: none;
+}
+
+
+
+
+
+
+
+
+.mostquestions h2{
+    width: 280px;
+    height: 60px;
+
+    
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #FF4C0D;
+}
+
+.mostquestions p{
+    width: 280px;
+    
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20.4px;
+}
+
+.askbtn{
+    width: 280px;
+    height: 54px;
+    padding: 15px 35px 15px 35px;
+   
+    border-radius: 65px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: -100px;
+}
+
+.listofquestion{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+
+.listofquestion h3{
+    width: 280px;
+    height: 38px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+}
+
+
+
+.firstquestion span{
+    width: 280px;
+    height: 60px;
+    
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20.4px;
+}
+
+
+
+
+.secondquestion span{
+    width: 280px;
+    height: 40px;
+    
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20.4px;
+}
+
+.firstquestion{
+    display: flex;
+    gap: 0px;
+}
+
+.secondquestion{
+    display: flex;
+    gap: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.buybox{
+    background-color:#151515;
+    width: 240px;
+    height: 570px;
+    top: 1547px;
+    padding: 20px;
+}
+
+.buuy h2{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.buuy{
+    width: 220px;
+    height: 90px;
+    margin-top: -100px;
+}
+
+.buuy span{
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 22px;
+}
+
+
+ul{
+    display: none;
+}
+
+
+
+.buybox{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: ;
+}
+
+#samok{
+    width: 378px;
+    height: 250px;
+    left: 250px;
+    margin-top: 50px;
+}
+
+.buyy-button{
+    display: none;
+}
+
+.buyyy-button{
+    display: block;
+    width: 220px;
+    height:54px;
+    
+    border-radius: 65px;
+    margin-left: 0px;
+    align-items:center;
+    background-color:#FF4C0D;
+    color: #F1F1F1;
+
+    margin-top: 490px;
+    margin-left: -230px;
+}
+
+
+.moreinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20.4px;
+}
+
+.inf{
+    text-align: center;
+}
+
+.h{
+    display: block;
+    color: #F1F1F1;
+    
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+margin-top: 550px;
+margin-left: -230px;
+}
+
+  }
+  
+
+
+
